@@ -1,0 +1,41 @@
+@media screen and ( max-width: 425px){
+
+    .app-container{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color:white;
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .navbar-container{
+        display: flex;
+        
+    }
+
+    .navbar-list{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-item{
+        margin: 5px;
+    }
+
+    .navbar-item a{
+        text-transform: uppercase;
+        color:white;
+        text-decoration: none;
+    }
+}
+

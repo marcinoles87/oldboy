@@ -8,8 +8,8 @@ import Navabar from './components/Navabar';
 function App() {
   return (
     <div className="app-container">
-      <Navabar></Navabar>
       <Header></Header>
+      <Navabar></Navabar>
       <Main></Main>
       <Footer></Footer>
       
