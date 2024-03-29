@@ -32,7 +32,7 @@
         margin: 5px;
     }
 
-    .navbar-item a{
+    .navbar-link{
         text-transform: uppercase;
         color:white;
         text-decoration: none;
