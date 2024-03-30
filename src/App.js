@@ -8,6 +8,7 @@ import Navabar from './components/Navabar';
 import Historia from './pages/Historia'
 import Kadra from './pages/Kadra'
 import Wyniki from './pages/Wyniki'
+import Wydarzenia from './pages/Wydarzenia';
 import Kontakt from './pages/Kontakt'
 
 import { Route, Router, Routes , Link } from 'react-router-dom';
@@ -34,6 +35,7 @@ function App() {
         <Route path='/historia' element={<Historia></Historia>}></Route>
         <Route path='/kadra' element={<Kadra></Kadra>}></Route>
         <Route path='/Wyniki' element={<Wyniki></Wyniki>}></Route>
+        <Route path='/Wydarzenia' element={<Wydarzenia></Wydarzenia>}></Route>
         <Route path='/Kontakt' element={<Kontakt></Kontakt>}></Route>
       </Routes>
       
