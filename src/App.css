@@ -1,6 +1,12 @@
 @media screen and ( max-width: 425px){
 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .app-container{
+        width: 100vw;
         display: flex;
         flex-direction: column;
         background-color: black;
@@ -29,22 +35,51 @@
         list-style: none;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
 
     .navbar-item{
+       
+        text-align: center;
         width: 100vw;
         height: 30vh;
-        margin: 5px;
+        background-color: #00000080;
+        
+    
+    }
+
+
+    .navbar-link-historia{
+        width: 100vw;
+        height: 30vh;
+        text-transform: uppercase;
+        color:white;
+        text-decoration: none;
         background-image: url('./img/hisotria.jpg');
         background-position: center;
         background-repeat:no-repeat;
         background-size: cover;
     }
 
-    .navbar-link{
+    .navbar-link-historia p{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .navbar-link-kadra{
+        width: 100vw;
+        height: 30vh;
         text-transform: uppercase;
         color:white;
         text-decoration: none;
+        background-image: url('./img/hisotria.jpg');
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: cover;
     }
 }
 
