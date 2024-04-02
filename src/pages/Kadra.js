@@ -4,6 +4,7 @@ function Kadra() {
   return (
     <div className='kadra-container'>
       <h2>Kadra Grębałowianki Oldboi 2024</h2>
+      
 
       <div className='kadra-card'>
       <h1>Bramkarze</h1>
@@ -45,15 +46,12 @@ function Kadra() {
         </div>
     
 
-      
-
-   
-
-       
-
-       <h1>Trener/pomoc trenera</h1>
+      <div className='kadra-card'>
+         <h1>Trener/pomoc trenera</h1>
        <p>Bernard Łach</p>
        <p>Jerzy Ostrowski</p>
+      </div>
+      
 
     </div>
   )

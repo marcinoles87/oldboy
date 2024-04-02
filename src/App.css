@@ -135,7 +135,7 @@
         background: linear-gradient(to right , black , rgb(65, 64, 64));
         box-shadow: 10px 9px 5px black;
         border-radius: 10px;
-        transform: rotate(2deg);
+        transform: rotate(0deg);
     }
 
     .kadra-card:nth-child(2){
@@ -154,6 +154,17 @@
     .kadra-card:nth-child(5){
         top: 290px;
     }
+
+    .kadra-card:nth-child(6){
+        top: 341px;
+    }
+
+
+    .wynik{
+        color:white;
+    }
+
+    
 
 }
 
@@ -174,24 +185,25 @@
     background: linear-gradient(to right , black , rgb(65, 64, 64));
     box-shadow: 10px 9px 5px black;
     border-radius: 10px;
-    transform: rotate(2deg);
+    transform: rotate(0deg);
+    transition: 1s ease;
 }
 
-.kadra-card:nth-child(2){
-   
-    color:green;
+.kadra-card:nth-child(2):hover{
+   z-index: 1;
+    
 }
 
-.kadra-card:nth-child(3){
-    color:blue;
+.kadra-card:nth-child(3):hover{
+    z-index: 1;
 }
 
-.kadra-card:nth-child(4){
-    color:pink;
+.kadra-card:nth-child(4):hover{
+    z-index: 1;
 }
 
-.kadra-card:nth-child(5){
-   
-    color:red;
+.kadra-card:nth-child(5):hover{
+    z-index: 1;
+    
 }
 
