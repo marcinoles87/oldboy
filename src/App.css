@@ -128,18 +128,31 @@
         position: absolute;
         top: 200px;
         width: 300px;
-        height: 50vh;
+        height: 0;
         color:white;
         text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         background: linear-gradient(to right , black , rgb(65, 64, 64));
         box-shadow: 10px 9px 5px black;
         border-radius: 10px;
-        transform: rotate(0deg);
+       
+    }
+
+    .kadra-card p{
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 5px;
     }
 
     .kadra-card:nth-child(2){
         top: 125px;
+         background-image:
+         linear-gradient(rgba(0, 0, 0, 0.266) , black),
+          url('./img/bramkarz.jpg');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         filter: grayscale(100%);
     }
 
 
