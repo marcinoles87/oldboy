@@ -7,31 +7,36 @@ function Wyniki() {
 
   const wyniki = [
     { 
-      mecz : 'Grębałowianka - Cracovia  ' ,
+      mecz : 'Cracovia - Grębalowianka  ' ,
+      data : '8.04.2024   godz. 19:00'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } ,
     
     { 
-      mecz : 'Grębałowianka - Hutnik' ,
+      mecz : 'Grębalowianka - Dąbski' ,
+      data : '15.04.2024   godz. 17:30'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } , 
 
     { 
-      mecz : 'Grębałowianka - Wisła' ,
+      mecz : 'Borek - Grębałowianka ' ,
+      data : '29.04.2024   godz. 21:00'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } , 
 
     { 
-      mecz : 'Grębałowianka - Borek' ,
+      mecz : 'Opatkowianka - Grębałowianka' ,
+      data : '13.05.2024   godz. 18:00'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } , 
 
     { 
-      mecz : 'Grębałowianka - Dąbski' ,
+      mecz : 'Wieczysta - Grębałowianka' ,
+      data : '20.05.2024   godz. 18:00'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } , 
@@ -44,29 +49,27 @@ function Wyniki() {
 
     { 
       mecz : 'Grębałowianka - Garbarnia' ,
+      data : '27.05.2024   godz. 17:30'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } , 
 
     { 
-      mecz : 'Grębałowianka - Cracovia' ,
+      mecz : 'Grębałowianka - Hutnik' ,
+      data : '3.06.2024   godz. 17:30'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } , 
 
     { 
-      mecz : 'Grębałowianka - Cracovia' ,
+      mecz : 'Orzeł - Grębałowianka' ,
+      data : '10.06.2024   godz. 18:30'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } , 
 
 
-    { 
-      mecz : 'Grębałowianka - Cracovia' ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
-    } , 
-
+   
 ]
 
   return (
@@ -77,6 +80,7 @@ function Wyniki() {
         return(
           <div className='wynik'>
             <h2>{item.mecz}</h2>
+            <p>{item.data}</p>
             <h3>{item.wynik}</h3>
             <h4>{item.statystyki}</h4>
             </div>
