@@ -21,11 +21,14 @@ function Kadra() {
        <p>Paweł Ochlust</p>
        <p>Piotr Jańczyk</p>
        <p>Marcin Wierzbiński</p>
-       <p>Dominik </p>
+       <p>Robert Dominik </p>
+       <p>Konrad Poplatek</p>
+       <p>Grzegorz Rutka</p>
         </div>
 
       <div className='kadra-card'>
             <h1>Pomocnicy</h1>
+      <p>Mariusz Wójcik</p>
        <p>Marcin Oleś</p>
        <p>Piotr Krawczyk</p>
        <p>Sebastian Towarek</p>
@@ -34,6 +37,7 @@ function Kadra() {
        <p>Marcin Cecuga</p>
        <p>Grzegorz Strojek</p>
        <p>Dominik Karaś</p>
+       <p>Tomasz Madejczyk</p>
         </div>
 
         <div className='kadra-card'>
@@ -47,7 +51,7 @@ function Kadra() {
     
 
       <div className='kadra-card'>
-         <h1>Trener/pomoc trenera</h1>
+         <h1>Trener / II Trener</h1>
        <p>Bernard Łach</p>
        <p>Jerzy Ostrowski</p>
       </div>

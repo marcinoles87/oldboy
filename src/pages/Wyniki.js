@@ -7,14 +7,14 @@ function Wyniki() {
 
   const wyniki = [
     { 
-      mecz : 'Cracovia - Grębalowianka  ' ,
+      mecz : 'Cracovia - Grębałowianka  ' ,
       data : '8.04.2024   godz. 19:00'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
     } ,
     
     { 
-      mecz : 'Grębalowianka - Dąbski' ,
+      mecz : 'Grębałowianka - Dąbski' ,
       data : '15.04.2024   godz. 17:30'  ,
       wynik: '0:0' ,
       statystyki : 'strzelcy :    asysty : '
@@ -82,7 +82,7 @@ function Wyniki() {
             <h2>{item.mecz}</h2>
             <p>{item.data}</p>
             <h3>{item.wynik}</h3>
-            <h4>{item.statystyki}</h4>
+            {/* <h4>{item.statystyki}</h4> */}
             </div>
         )
       })} 
