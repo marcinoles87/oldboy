@@ -17,6 +17,11 @@
     .dark{
         background-color: white;
         color:black;
+        
+    }
+
+    .dark .wynik{
+        color:black
     }
 
     .toogle-mode{
