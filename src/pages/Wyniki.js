@@ -9,8 +9,8 @@ function Wyniki() {
     { 
       mecz : 'Cracovia - Grębałowianka  ' ,
       data : '8.04.2024   godz. 19:00'  ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      wynik: '5:1' ,
+      statystyki : 'strzelcy dla KSG : Konrad Poplatek    asysty : '
     } ,
     
     { 
@@ -82,6 +82,7 @@ function Wyniki() {
             <h2>{item.mecz}</h2>
             <p>{item.data}</p>
             <h3>{item.wynik}</h3>
+            <h5>{item.statystyki}</h5>
             {/* <h4>{item.statystyki}</h4> */}
             </div>
         )
