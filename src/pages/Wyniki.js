@@ -5,7 +5,10 @@ import opisDabski from './opis/opisDabski'
 
 
 
+
 function Wyniki() {
+
+  
 
   const wyniki = [
     { 
@@ -20,7 +23,7 @@ function Wyniki() {
       data : '15.04.2024   godz. 17:30'  ,
       wynik: '5:1' ,
       statystyki : 'strzelcy : Cecuga x 2 , Lampart , Franaszek , Strojek R.,    asysty : ' ,
-      opis : <a href={opisDabski}>Link do opisu</a>
+      opis : {opisDabski}
     } , 
 
     { 
@@ -87,7 +90,7 @@ function Wyniki() {
             <p>{item.data}</p>
             <h3>{item.wynik}</h3>
             <h5>{item.statystyki}</h5>
-            <h4>{item.opis}</h4>
+            <a href={item.opis}>Link</a>
             </div>
         )
       })} 
