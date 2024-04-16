@@ -185,6 +185,10 @@
         font-size: 20px;
     }
 
+    .wynik h5{
+        text-align: center;
+    }
+
     .contact-container{
         display: flex;
         flex-direction: column;

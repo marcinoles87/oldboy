@@ -1,6 +1,8 @@
 import React from 'react'
 import '../App.css'
 
+import opisDabski from './opis/opisDabski'
+
 
 
 function Wyniki() {
@@ -10,14 +12,15 @@ function Wyniki() {
       mecz : 'Cracovia - Grębałowianka  ' ,
       data : '8.04.2024   godz. 19:00'  ,
       wynik: '5:1' ,
-      statystyki : 'strzelcy dla KSG : Konrad Poplatek    asysty : '
+      statystyki : 'strzelcy dla KSG : Poplatek    asysty : '
     } ,
     
     { 
       mecz : 'Grębałowianka - Dąbski' ,
       data : '15.04.2024   godz. 17:30'  ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      wynik: '5:1' ,
+      statystyki : 'strzelcy : Cecuga x 2 , Lampart , Franaszek , Strojek R.,    asysty : ' ,
+      opis : <a href={opisDabski}>Link do opisu</a>
     } , 
 
     { 
@@ -58,7 +61,8 @@ function Wyniki() {
       mecz : 'Grębałowianka - Hutnik' ,
       data : '3.06.2024   godz. 17:30'  ,
       wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      statystyki : 'strzelcy :    asysty : ',
+      
     } , 
 
     { 
@@ -83,7 +87,7 @@ function Wyniki() {
             <p>{item.data}</p>
             <h3>{item.wynik}</h3>
             <h5>{item.statystyki}</h5>
-            {/* <h4>{item.statystyki}</h4> */}
+            <h4>{item.opis}</h4>
             </div>
         )
       })} 
