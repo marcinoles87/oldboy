@@ -3,6 +3,7 @@ import React from 'react'
 function Kadra() {
   return (
     <div className='kadra-container'>
+      <div className='kadra-overlay'>
       <h2>Kadra Grębałowianki Oldboi 2024</h2>
       
 
@@ -54,6 +55,8 @@ function Kadra() {
          <h1>Trener / II Trener</h1>
        <p>Bernard Łach</p>
        <p>Jerzy Ostrowski</p>
+      </div>
+
       </div>
       
 

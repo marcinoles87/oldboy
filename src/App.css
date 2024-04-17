@@ -136,6 +136,18 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        background-image: url('./img/kadra.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .kadra-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.481);
     }
 
     .kadra-container h1{
@@ -194,6 +206,23 @@
         flex-direction: column;
         text-align: center;
     }
+
+
+    /*opis*/
+
+    .opis-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .opis-info img{
+        width: 90%;
+        margin: 20px;
+    }
+
+    
     
 
     
