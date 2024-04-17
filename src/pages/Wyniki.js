@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 
 import opisDabski from './opis/opisDabski'
+import { Link } from 'react-router-dom'
 
 
 
@@ -23,7 +24,7 @@ function Wyniki() {
       data : '15.04.2024   godz. 17:30'  ,
       wynik: '5:1' ,
       statystyki : 'strzelcy : Cecuga x 2 , Lampart , Franaszek , Strojek R.,    asysty : ' ,
-      opis : {opisDabski}
+      opis : <Link to={'/opis/opisDabski'}><p>Opis meczu</p></Link>
     } , 
 
     { 
@@ -86,11 +87,12 @@ function Wyniki() {
          {wyniki.map( (item) => {
         return(
           <div className='wynik'>
+            
             <h2>{item.mecz}</h2>
             <p>{item.data}</p>
             <h3>{item.wynik}</h3>
             <h5>{item.statystyki}</h5>
-            <a href={item.opis}>Link</a>
+            {item.opis}
             </div>
         )
       })} 

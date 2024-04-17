@@ -10,6 +10,8 @@ import Kadra from './pages/Kadra'
 import Wyniki from './pages/Wyniki'
 import Wydarzenia from './pages/Wydarzenia';
 import Kontakt from './pages/Kontakt'
+// import opisDabski from './pages/opis/opisDabski';
+import Opis from './pages/opis/opisDabski'
 
 import { Route, Router, Routes , Link } from 'react-router-dom';
 
@@ -37,6 +39,9 @@ function App() {
         <Route path='/Wyniki' element={<Wyniki></Wyniki>}></Route>
         <Route path='/Wydarzenia' element={<Wydarzenia></Wydarzenia>}></Route>
         <Route path='/Kontakt' element={<Kontakt></Kontakt>}></Route>
+        
+        <Route path='/opis/opisDabski' element={<Opis></Opis>}> </Route>
+
       </Routes>
       
       

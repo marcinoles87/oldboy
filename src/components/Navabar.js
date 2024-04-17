@@ -10,6 +10,7 @@ function Navabar() {
             <Link to={'/wyniki'}className='navbar-link' ><li className='navbar-item'><p>Wyniki</p></li></Link>
             <Link to={'/wydarzenia'}className='navbar-link' ><li className='navbar-item'><p>Wydarzenia</p></li></Link>
             <Link to={'/kontakt'} className='navbar-link'><li className='navbar-item'><p>Kontakt</p></li></Link>
+           
             
         </ul>
     </div>
