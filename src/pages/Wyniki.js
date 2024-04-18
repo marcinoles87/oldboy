@@ -16,7 +16,8 @@ function Wyniki() {
       mecz : 'Cracovia - Grębałowianka  ' ,
       data : '8.04.2024   godz. 19:00'  ,
       wynik: '5:1' ,
-      statystyki : 'strzelcy dla KSG : Poplatek    asysty : '
+      statystyki : 'strzelcy dla KSG : Poplatek    asysty : ',
+      opis : <Link to={'/opis/opisCra'}><p>Opis meczu</p></Link>
     } ,
     
     { 
