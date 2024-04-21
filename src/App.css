@@ -231,6 +231,25 @@
         margin: 20px;
     }
 
+    /*historia*/
+
+    .historia-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .historia-container h1{
+        text-align: center;
+        margin:10px;
+    }
+
+    .historia-container p{
+        padding: 10px;
+    }
+
     
     
 
