@@ -6,12 +6,12 @@ import his_img3 from '../img/2014_2.jpg'
 import his_img4 from '../img/2016_1.jpg'
 import his_img5 from '../img/2023.jpg'
 import his_img6 from '../img/hala.jpg'
-import his_img7 from '../img/2013.jpg'
+import his_img7 from '../img/2022.jpg'
 
 function Historia() {
   return (
     <div className='historia-container'>
-      <h1>Grębałowianka oldboje</h1>
+      <h1>Historia</h1>
       <p>
 
       <img src={his_img1} alt='oldboje2013'></img>
@@ -99,6 +99,7 @@ strojów, Piotr Zdziarski – prezes, Ryszard Chmiel – prezes, Tomasz Chmiel �
 wiceprezes, Mateusz Tabor – wiceprezes, Zbigniew Belski – wiceprezes,
 Stanisław Pituch – członek zarządu.</p>
 <img src={his_img5} alt='oldboje2013'></img>
+<img src={his_img7} alt='oldboje2013'></img>
       </div>
   )
 }
