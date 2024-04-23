@@ -247,7 +247,13 @@
     }
 
     .historia-container p{
+        line-height: 1.3;
         padding: 10px;
+    }
+
+    .historia-container img{
+    width: 100%;
+    padding: 10px;
     }
 
     
