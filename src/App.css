@@ -31,6 +31,7 @@
     margin: 10px;
 }
 
+
 .navbar-container{
     display: flex;
     justify-content: center;
@@ -113,6 +114,41 @@
     background-image: url('./img/kontakt.jpg');
 
 }
+
+.historia-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.historia-container img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.historia-container p{
+    font-size: 1.4rem;
+}
+
+.kadra-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('./img/kadra2.jpg');
+}
+
+.kadra-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.781);
+
+}
+
+
 
 
 
