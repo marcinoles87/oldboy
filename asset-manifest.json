@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/oldboy/static/css/main.95ec89fb.css",
+    "main.css": "/oldboy/static/css/main.caf5f196.css",
     "main.js": "/oldboy/static/js/main.2b9ed2ee.js",
     "static/media/wydarzenia.jpg": "/oldboy/static/media/wydarzenia.ae9b26ab07114d5ae062.jpg",
     "static/media/hala.jpg": "/oldboy/static/media/hala.b9fc5790357ae2da7432.jpg",
@@ -17,11 +17,11 @@
     "static/media/kontakt.jpg": "/oldboy/static/media/kontakt.ad465c4fbd0a1b9de388.jpg",
     "static/media/wyniki.jpg": "/oldboy/static/media/wyniki.7b6f33f7a46d5ac288b4.jpg",
     "index.html": "/oldboy/index.html",
-    "main.95ec89fb.css.map": "/oldboy/static/css/main.95ec89fb.css.map",
+    "main.caf5f196.css.map": "/oldboy/static/css/main.caf5f196.css.map",
     "main.2b9ed2ee.js.map": "/oldboy/static/js/main.2b9ed2ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.95ec89fb.css",
+    "static/css/main.caf5f196.css",
     "static/js/main.2b9ed2ee.js"
   ]
 }
