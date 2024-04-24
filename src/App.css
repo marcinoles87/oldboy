@@ -1,3 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toogle-mode{
+    display: none;
+}
+
+.app-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-container h1{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-item{
+   
+    text-align: center;
+    height: 100%;
+    background-color: #00000080;
+    
+
+}
+
+
+.navbar-link{
+    width: 20vw;
+    height: 60vh;
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    background-image: url('./img/historia4.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.navbar-link p{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    background-color: #8080808a;
+}
+
+.navbar-link:nth-child(2){
+   
+    background-image: url('./img/kadra2.jpg');
+    object-fit: contain;
+
+}
+
+
+.navbar-link:nth-child(3){
+   
+    background-image: url('./img/wyniki.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navbar-link:nth-child(4){
+   
+    background-image: url('./img/wydarzenia.jpg');
+
+}
+
+.navbar-link:nth-child(5){
+   
+    background-image: url('./img/kontakt.jpg');
+
+}
+
+
+
+
 @media screen and ( max-width: 425px){
 
     *{
