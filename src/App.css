@@ -67,6 +67,11 @@
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
+    transition: 1s ease;
+}
+
+.navbar-link:hover{
+    width: 100vw;
 }
 
 .navbar-link p{
@@ -84,6 +89,15 @@
    
     background-image: url('./img/kadra2.jpg');
     object-fit: contain;
+    transition: 1s ease;
+
+}
+
+.navbar-link:nth-child(2):hover{
+   
+    background-image: url('./img/kadra2.jpg');
+    object-fit: contain;
+    width: 100vw;
 
 }
 
@@ -111,7 +125,7 @@
 
 
 
-@media screen and ( max-width: 425px){
+@media screen and ( max-width: 500px){
 
     *{
         margin: 0;
