@@ -165,6 +165,34 @@
     font-size: 1.4rem;
 }
 
+.wyniki-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wynik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 2px solid blue;
+}
+
+.wynik a{
+    text-decoration: none;
+    color:rgb(41, 41, 244);
+    padding: 10px;
+    border: 1px solid blue;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
 
 
 
@@ -303,6 +331,7 @@
 
 
     .kadra-container{
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
