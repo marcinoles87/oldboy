@@ -16,7 +16,7 @@ function Wyniki() {
       mecz : 'Cracovia - Grębałowianka  ' ,
       data : '8.04.2024   godz. 19:00'  ,
       wynik: '5:1' ,
-      statystyki : 'strzelcy dla KSG : Poplatek    asysty : ',
+      statystyki : 'strzelcy : Poplatek   ',
       opis : <Link to={'/opis/opisCra'}><p>Opis meczu</p></Link>
     } ,
     
@@ -24,49 +24,49 @@ function Wyniki() {
       mecz : 'Grębałowianka - Dąbski' ,
       data : '15.04.2024   godz. 17:30'  ,
       wynik: '5:1' ,
-      statystyki : 'strzelcy : Cecuga x 2 , Lampart , Franaszek , Strojek R.,    asysty : ' ,
+      statystyki : 'strzelcy : Cecuga x 2 , Lampart , Franaszek , Strojek R.,    ' ,
       opis : <Link to={'/opis/opisDabski'}><p>Opis meczu</p></Link>
     } , 
 
     { 
       mecz : 'Borek - Grębałowianka ' ,
       data : '29.04.2024   godz. 21:00'  ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      wynik: '1:0' ,
+      statystyki : 'strzelcy :     '
     } , 
 
     { 
       mecz : 'Opatkowianka - Grębałowianka' ,
       data : '13.05.2024   godz. 18:00'  ,
       wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      statystyki : 'strzelcy :   '
     } , 
 
     { 
       mecz : 'Wieczysta - Grębałowianka' ,
       data : '20.05.2024   godz. 18:00'  ,
       wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      statystyki : 'strzelcy :  '
     } , 
 
     { 
       mecz : 'Grębałowianka - Opatkowianka' ,
       wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      statystyki : 'strzelcy :'
     } , 
 
     { 
       mecz : 'Grębałowianka - Garbarnia' ,
       data : '27.05.2024   godz. 17:30'  ,
       wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      statystyki : 'strzelcy :   '
     } , 
 
     { 
       mecz : 'Grębałowianka - Hutnik' ,
       data : '3.06.2024   godz. 17:30'  ,
       wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : ',
+      statystyki : 'strzelcy :  ',
       
     } , 
 
@@ -74,7 +74,7 @@ function Wyniki() {
       mecz : 'Orzeł - Grębałowianka' ,
       data : '10.06.2024   godz. 18:30'  ,
       wynik: '0:0' ,
-      statystyki : 'strzelcy :    asysty : '
+      statystyki : 'strzelcy :    '
     } , 
 
 
