@@ -193,6 +193,26 @@
     
 }
 
+.opis-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.opis-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opis-info img{
+    margin:10px
+}
+
 
 
 
