@@ -180,17 +180,24 @@
     align-items: center;
     margin: 20px;
     padding: 10px;
-    border-bottom: 2px solid blue;
+    /* border-bottom: 2px solid blue; */
 }
 
 .wynik a{
+    background-color: blue;
+    color:white;
     text-decoration: none;
-    color:rgb(41, 41, 244);
     padding: 10px;
-    border: 1px solid rgb(0, 0, 255);
+    border: 1px solid rgb(67, 107, 253);
     margin: 10px;
     border-radius: 10px;
+    transition: 0.5s ease;
     
+}
+
+.wynik a:hover{
+    background-color: black;
+    color:white;
 }
 
 .opis-container{
@@ -207,6 +214,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.opis-info p{
+    margin:20px;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 .opis-info img{
@@ -451,6 +464,12 @@
     .opis-info img{
         width: 90%;
         margin: 20px;
+    }
+
+    .opis-info p{
+        margin: 5px;
+        text-align: center;
+        font-size: 1rem;
     }
 
     /*historia*/

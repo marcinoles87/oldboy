@@ -35,6 +35,18 @@ function Wyniki() {
       statystyki : 'strzelcy :     '
     } , 
 
+
+    { 
+      mecz : 'Grębałowianka - Wisła' ,
+      data : '29.04.2024   godz. 17:30'  ,
+      wynik: '2:2' ,
+      statystyki : 'strzelcy : Cecuga , Karaś.D  ' ,
+      opis : <Link to={'/opis/opisWisla'}><p>Opis meczu</p></Link>
+      
+    } , 
+
+   
+
     { 
       mecz : 'Opatkowianka - Grębałowianka' ,
       data : '13.05.2024   godz. 18:00'  ,

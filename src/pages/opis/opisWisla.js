@@ -4,13 +4,13 @@ import img1 from './img/dabski1.jpg'
 import img2 from './img/dabski1.jpg'
 import img3 from './img/dabski1.jpg'
 
-function opisCra() {
+function opisWisla() {
   return (
     <div className='opis-container'>
       <div className='opis-header'>
         
-        <h1>Cracovia - Grębałowianka</h1> 
-       
+        <h1>Grębałowianka - Wisła</h1> 
+        
        
       </div>
 
@@ -46,4 +46,4 @@ Pozdrawiam Piotr Grzywa 😉👌⚽
   )
 }
 
-export default opisCra
+export default opisWisla

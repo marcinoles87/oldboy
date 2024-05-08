@@ -10,7 +10,7 @@ function opisDabski() {
       <div className='opis-header'>
         
         <h1>Grębałowianka - Dąbski</h1> 
-        <p>Opis meczu</p>
+        
        
       </div>
 
