@@ -451,6 +451,34 @@
         text-align: center;
     }
 
+    .contact-container p{
+        margin-bottom: 10px;
+    }
+
+    /*wydarzenia*/
+
+    .wydarzenia-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+    .wydarzenia-container a{
+        text-decoration: none;
+        cursor: pointer;
+        color:white;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+
+
+    }
+
 
     /*opis*/
 

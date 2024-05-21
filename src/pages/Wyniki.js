@@ -48,10 +48,11 @@ function Wyniki() {
    
 
     { 
-      mecz : 'Opatkowianka - Grębałowianka' ,
-      data : '13.05.2024   godz. 18:00'  ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :   '
+      mecz : 'Garbarnia - Grębałowianka' ,
+      data : '20.05.2024   godz. 19:30'  ,
+      wynik: '2:2' ,
+      statystyki : 'strzelcy : Cecuga , Strojek R.  ' ,
+      opis : <Link to={'/opis/opisGarbarnia'}><p>Opis meczu</p></Link>
     } , 
 
     { 

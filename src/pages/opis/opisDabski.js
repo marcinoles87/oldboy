@@ -15,12 +15,12 @@ function opisDabski() {
       </div>
 
       <div className='opis-info'>
-          <p>2 kolejka I ligi oldboyów Kraków 
+          <p>2 kolejka I ligi oldboyów Kraków <br></br>
 
-          Grębałowianka Kraków -Dąbski Kraków 5:1 (2:0)
-          Bramki dla Gręby: 1:0 Cecuga as. Oleś, 2:0 Lampart as. Strojek R, 3:0 Cecuga as Wierzbinski , 4:0 Franaszek b/a, 5:0 Strojek R karny po faulu na Cecuga 
+          Grębałowianka Kraków -Dąbski Kraków 5:1 (2:0) <br></br>
+          Bramki dla Gręby: 1:0 Cecuga as. Oleś, 2:0 Lampart as. Strojek R, 3:0 Cecuga as Wierzbinski , 4:0 Franaszek b/a, 5:0 Strojek R karny po faulu na Cecuga <br></br>
 
-          Skład Grębałowianki: Nowak - Towarek, Dominik, Korcala, Wierzbinski, Strojek G, Oleś, Lampart, Mucharski, Cecuga, Strojek R - Zięba, Grzywa, Talaga, Zawada, Sendor, Kawula , Franaszek 
+          Skład Grębałowianki: Nowak - Towarek, Dominik, Korcala, Wierzbinski, Strojek G, Oleś, Lampart, Mucharski, Cecuga, Strojek R - Zięba, Grzywa, Talaga, Zawada, Sendor, Kawula , Franaszek  <br></br>
           Trener: Bernard Łach 
           Kapitan: Piotr Kokosza 
           Stolarski, Wójcik, Krawczyk,Tynor 
