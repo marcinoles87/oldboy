@@ -55,6 +55,8 @@ function Kadra() {
          <h1>Trener / II Trener</h1>
        <p>Bernard Łach</p>
        <p>Jerzy Ostrowski</p>
+        <h1>Kapitan drużyny</h1>
+        <p>Piotr Kokosza</p>
       </div>
 
       </div>
