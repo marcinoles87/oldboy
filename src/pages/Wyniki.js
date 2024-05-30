@@ -63,34 +63,7 @@ function Wyniki() {
       opis : <Link to={'/opis/opisWieczysta'}><p>Opis meczu</p></Link>
     } , 
 
-    { 
-      mecz : 'Grębałowianka - Opatkowianka' ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :'
-    } , 
-
-    { 
-      mecz : 'Grębałowianka - Garbarnia' ,
-      data : '27.05.2024   godz. 17:30'  ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :   '
-    } , 
-
-    { 
-      mecz : 'Grębałowianka - Hutnik' ,
-      data : '3.06.2024   godz. 17:30'  ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :  ',
-      
-    } , 
-
-    { 
-      mecz : 'Orzeł - Grębałowianka' ,
-      data : '10.06.2024   godz. 18:30'  ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :    '
-    } , 
-
+  
 
    
 ]

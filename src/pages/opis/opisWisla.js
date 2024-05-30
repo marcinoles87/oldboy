@@ -16,7 +16,7 @@ function opisWisla() {
 
       <div className='opis-info'>
           <p>
-          1 kolejka I ligi oldboyów Kraków  <br></br>
+          4 kolejka I ligi oldboyów Kraków  <br></br>
 
 Cracovia Kraków -Grębałowianka Kraków 5:1 (1:0) <br></br>
 Bramka dla Gręby:Poplatek 
