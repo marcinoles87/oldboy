@@ -16,8 +16,8 @@ function opisWisla() {
 
       <div className='opis-info'>
           <p>
-          7 kolejka I ligi oldboyów Kraków 
-Grębałowianka Kraków -Garbarnia Kraków 0:5 (0:2)
+          7 kolejka I ligi oldboyów Kraków  <br></br>
+Grębałowianka Kraków -Garbarnia Kraków 0:5 (0:2) < br></br>
 Skład Gręby: Kokosza - Towarek, Ochlust, Rutka, Korcala, Wierzbinski, Strojek G, Karaś, Mucharski, Cecuga, Strojek R, Madejczyk, Kawula,  Zięba, Grzywa, Dominik. <br></br>
 Trener Bernard Łach  <br></br>
 Catering Marcin Stolarski 👌
