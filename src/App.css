@@ -445,6 +445,13 @@
     margin: 10px;
     }
 
+    .wyniki-container h2 a{
+       
+        color:orange;
+        border-bottom:2px solid blue;
+
+    }
+
     .contact-container{
         display: flex;
         flex-direction: column;
@@ -525,6 +532,8 @@
     width: 100%;
     padding: 10px;
     }
+
+    
 
     
     

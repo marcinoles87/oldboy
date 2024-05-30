@@ -98,6 +98,8 @@ function Wyniki() {
   return (
     <div className='wyniki-container'>
       <h1>Wyniki</h1>
+
+      <h2>Aktualna <a href='https://futmal.pl/league/i-liga-oldbojow-krakow'>tabela</a> </h2>
         
          {wyniki.map( (item) => {
         return(
