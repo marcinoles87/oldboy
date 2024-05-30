@@ -58,8 +58,9 @@ function Wyniki() {
     { 
       mecz : 'Wieczysta - Grębałowianka' ,
       data : '20.05.2024   godz. 18:00'  ,
-      wynik: '0:0' ,
-      statystyki : 'strzelcy :  '
+      wynik: '0:5' ,
+      statystyki : 'strzelcy :  ' ,
+      opis : <Link to={'/opis/opisWieczysta'}><p>Opis meczu</p></Link>
     } , 
 
     { 
