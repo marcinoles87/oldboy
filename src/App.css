@@ -490,8 +490,11 @@
         height: 100vh;
         align-items: center;
         justify-content: center;
-        text-align: center;
         background: rgb(0,0,0);
+    }
+
+    .contact-container h1{
+        margin-bottom: 15px;
     }
 
     .contact-container p{
