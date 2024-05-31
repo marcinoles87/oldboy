@@ -56,7 +56,7 @@ function Wyniki() {
     } , 
 
     { 
-      mecz : 'Wieczysta - Grębałowianka' ,
+      mecz : 'Grębałowianka- Wieczysta ' ,
       data : '20.05.2024   godz. 18:00'  ,
       wynik: '0:5' ,
       statystyki : 'strzelcy :  ' ,
