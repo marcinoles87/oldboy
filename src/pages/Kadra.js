@@ -52,11 +52,16 @@ function Kadra() {
     
 
       <div className='kadra-card'>
-         <h1>Trener / II Trener</h1>
+         <h1>Trener</h1>
        <p>Bernard Łach</p>
+       <h1> II Trener</h1>
        <p>Jerzy Ostrowski</p>
         <h1>Kapitan drużyny</h1>
         <p>Piotr Kokosza</p>
+        <h1>Kierownik drużyny</h1>
+       <p>Grzegorz Strojek / Robert Strojek</p>
+       <h1>Social Media</h1>
+       <p>Piotr Grzywa / Marcin Oleś</p>
       </div>
 
       </div>
