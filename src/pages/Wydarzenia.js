@@ -1,5 +1,6 @@
 import React from 'react'
 import wydarzenia1 from '../img/wydarzenia1.jpg'
+import wydarzenia2 from '../img/wydarzenia2.jpg'
 
 function Wydarzenia() {
   return (
@@ -13,6 +14,11 @@ function Wydarzenia() {
     <div className='wydarzenia-item'>
       <h3>#70 lat KSG ! Wstęp wolny ! Zapraszamy !</h3>
       <img src={wydarzenia1} alt='wydarzenia1'></img>
+    </div>
+
+    <div className='wydarzenia-item'>
+      <h3> #Turniej Charytatywny dla osób niepełnosprawnych </h3>
+      <img src={wydarzenia2} alt='wydarzenia2'></img>
     </div>
 
   
