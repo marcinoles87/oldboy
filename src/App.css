@@ -447,7 +447,7 @@
     }
 
   
-  
+  /*wyniki*/
 
 
     .wyniki-container{
@@ -468,6 +468,10 @@
 
     }
 
+
+    .wynik h1{
+        margin: 10px;
+    }
 
     .wynik p {
         margin: 10px 0 ;
@@ -494,7 +498,7 @@
     .wyniki-container h2 a{
        
         color:orange;
-        border-bottom:2px solid blue;
+       
 
     /* kontakt*/
 
@@ -520,6 +524,7 @@
     /*wydarzenia*/
 
     .wydarzenia-container{
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -539,15 +544,21 @@
         text-align: center;
     }
 
+    .wydarzenia-container h1{
+        margin: 10px;
+    }
+
     .wydarzenia-item{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
     }
 
     .wydarzenia-container h3{
-        margin: 20px;
+        margin: 10px;
+        text-align: center;
     }
 
     .wydarzenia-container img{
