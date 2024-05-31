@@ -537,9 +537,27 @@
         margin: 10px;
         padding: 10px;
         text-align: center;
+    }
 
+    .wydarzenia-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wydarzenia-container h3{
+        margin: 20px;
+    }
+
+    .wydarzenia-container img{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
 
     }
+
+
 
 
     /*opis*/
