@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oldboy/static/css/main.ed56a90d.css",
-    "main.js": "/oldboy/static/js/main.e466d6c8.js",
+    "main.css": "/oldboy/static/css/main.c445ae21.css",
+    "main.js": "/oldboy/static/js/main.9f32aa35.js",
     "static/media/wydarzenia.jpg": "/oldboy/static/media/wydarzenia.ae9b26ab07114d5ae062.jpg",
     "static/media/hala.jpg": "/oldboy/static/media/hala.b9fc5790357ae2da7432.jpg",
     "static/media/2022.jpg": "/oldboy/static/media/2022.e667a0179a79a48c2111.jpg",
@@ -12,17 +12,18 @@
     "static/media/kadra2.jpg": "/oldboy/static/media/kadra2.6bfcb74f65dfcbdce459.jpg",
     "static/media/2014_1.jpg": "/oldboy/static/media/2014_1.e55e5bf202dad6be2e28.jpg",
     "static/media/2016_1.jpg": "/oldboy/static/media/2016_1.10cee0f83faf0e707ae0.jpg",
+    "static/media/wydarzenia1.jpg": "/oldboy/static/media/wydarzenia1.9898d48b8b8351724a5b.jpg",
     "static/media/2013.jpg": "/oldboy/static/media/2013.4dfba8f68d2b2d3fa2fc.jpg",
     "static/media/dabski1.jpg": "/oldboy/static/media/dabski1.b5790a8332f5a9184229.jpg",
     "static/media/logo.png": "/oldboy/static/media/logo.a2fc1662e5dd4463cd10.png",
     "static/media/kontakt.jpg": "/oldboy/static/media/kontakt.ad465c4fbd0a1b9de388.jpg",
     "static/media/wyniki.jpg": "/oldboy/static/media/wyniki.7b6f33f7a46d5ac288b4.jpg",
     "index.html": "/oldboy/index.html",
-    "main.ed56a90d.css.map": "/oldboy/static/css/main.ed56a90d.css.map",
-    "main.e466d6c8.js.map": "/oldboy/static/js/main.e466d6c8.js.map"
+    "main.c445ae21.css.map": "/oldboy/static/css/main.c445ae21.css.map",
+    "main.9f32aa35.js.map": "/oldboy/static/js/main.9f32aa35.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed56a90d.css",
-    "static/js/main.e466d6c8.js"
+    "static/css/main.c445ae21.css",
+    "static/js/main.9f32aa35.js"
   ]
 }
