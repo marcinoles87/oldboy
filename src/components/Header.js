@@ -10,7 +10,7 @@ function Header() {
   }
   return (
     <div className='header-container'>
-        <h1>Grębałowianka Oldboje 2024</h1>
+        <h1>Grębałowianka Oldboje</h1>
         <img src={logo} alt='logo_grebalowianka'></img>
         <button className='toogle-mode' onClick={toggleMode}>white/black mode</button>
     </div>
