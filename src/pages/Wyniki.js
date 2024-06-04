@@ -63,6 +63,14 @@ function Wyniki() {
       opis : <Link to={'/opis/opisWieczysta'}><p>Opis meczu</p></Link>
     } , 
 
+    { 
+      mecz : 'Grębałowianka- Hutnik ' ,
+      data : '03.06.2024   godz. 17:30'  ,
+      wynik: '0:4' ,
+      statystyki : 'strzelcy :  ' ,
+      opis : <Link to={'/opis/opisHutnik'}><p>Opis meczu</p></Link>
+    } , 
+
   
 
    
