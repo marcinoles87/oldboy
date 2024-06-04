@@ -165,13 +165,14 @@
     font-size: 1.4rem;
 }
 
+/*wydarzenia*/
+
 
 .wydarzenia-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: black;
 }
 
@@ -191,6 +192,20 @@
     border: 2px solid black;
     color: black;
     font-size: 20px;
+}
+
+.wydarzenia-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.wydarzenia-item img{
+    max-width: 800px;
+    height: auto;
+    margin: 10px;
 }
 
 .wyniki-container{
@@ -269,6 +284,8 @@
 .contact-container p{
     margin: 10px;
 }
+
+
 
 
 
