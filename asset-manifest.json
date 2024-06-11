@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oldboy/static/css/main.a9eb9bae.css",
-    "main.js": "/oldboy/static/js/main.5206ef27.js",
+    "main.css": "/oldboy/static/css/main.3a6d11b9.css",
+    "main.js": "/oldboy/static/js/main.65435ccf.js",
     "static/media/wydarzenia.jpg": "/oldboy/static/media/wydarzenia.ae9b26ab07114d5ae062.jpg",
     "static/media/hala.jpg": "/oldboy/static/media/hala.b9fc5790357ae2da7432.jpg",
     "static/media/2022.jpg": "/oldboy/static/media/2022.e667a0179a79a48c2111.jpg",
@@ -13,18 +13,21 @@
     "static/media/kadra2.jpg": "/oldboy/static/media/kadra2.6bfcb74f65dfcbdce459.jpg",
     "static/media/2014_1.jpg": "/oldboy/static/media/2014_1.e55e5bf202dad6be2e28.jpg",
     "static/media/2016_1.jpg": "/oldboy/static/media/2016_1.10cee0f83faf0e707ae0.jpg",
+    "static/media/orzel2.jpg": "/oldboy/static/media/orzel2.e7aa981602be29492078.jpg",
+    "static/media/orzel1.jpg": "/oldboy/static/media/orzel1.39f932346fb850c48601.jpg",
     "static/media/wydarzenia1.jpg": "/oldboy/static/media/wydarzenia1.9898d48b8b8351724a5b.jpg",
     "static/media/2013.jpg": "/oldboy/static/media/2013.4dfba8f68d2b2d3fa2fc.jpg",
+    "static/media/orzel3.jpg": "/oldboy/static/media/orzel3.8c1b90094f8ee56eaf59.jpg",
     "static/media/dabski1.jpg": "/oldboy/static/media/dabski1.b5790a8332f5a9184229.jpg",
     "static/media/logo.png": "/oldboy/static/media/logo.a2fc1662e5dd4463cd10.png",
     "static/media/kontakt.jpg": "/oldboy/static/media/kontakt.ad465c4fbd0a1b9de388.jpg",
     "static/media/wyniki.jpg": "/oldboy/static/media/wyniki.7b6f33f7a46d5ac288b4.jpg",
     "index.html": "/oldboy/index.html",
-    "main.a9eb9bae.css.map": "/oldboy/static/css/main.a9eb9bae.css.map",
-    "main.5206ef27.js.map": "/oldboy/static/js/main.5206ef27.js.map"
+    "main.3a6d11b9.css.map": "/oldboy/static/css/main.3a6d11b9.css.map",
+    "main.65435ccf.js.map": "/oldboy/static/js/main.65435ccf.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9eb9bae.css",
-    "static/js/main.5206ef27.js"
+    "static/css/main.3a6d11b9.css",
+    "static/js/main.65435ccf.js"
   ]
 }
