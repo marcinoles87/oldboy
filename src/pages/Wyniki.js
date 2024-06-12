@@ -71,6 +71,14 @@ function Wyniki() {
       opis : <Link to={'/opis/opisHutnik'}><p>Opis meczu</p></Link>
     } , 
 
+    { 
+      mecz : 'Grębałowianka- Orzel ' ,
+      data : '11.06.2024   godz. 17:30'  ,
+      wynik: '1:0' ,
+      statystyki : 'strzelcy : Lampart ' ,
+      opis : <Link to={'/opis/opisOrzel'}><p>Opis meczu</p></Link>
+    } , 
+
   
 
    
