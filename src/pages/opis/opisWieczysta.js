@@ -9,7 +9,7 @@ function opisWisla() {
     <div className='opis-container'>
       <div className='opis-header'>
         
-        <h1>Grębałowianka - Wiecztsta</h1> 
+        <h1>Grębałowianka - Garbarnia</h1> 
         
        
       </div>

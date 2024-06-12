@@ -428,6 +428,7 @@
     
     }
 
+
     /* kadra */
 
 
@@ -491,7 +492,7 @@
     }
 
 
-    .wynik h1{
+    .wyniki-container h1{
         margin: 10px;
     }
 
@@ -524,7 +525,7 @@
         color:white;
         border: 2px solid orange;
         text-decoration: none;
-        padding: 5px;
+        padding: 2px;
         border-radius: 10px;
        
 
@@ -606,10 +607,11 @@
         flex-direction: column;
         text-align: center;
         padding: 10px;
+        width: 90vw;
     }
 
     .opis-info img{
-        width: 90%;
+        width: 100%;
         margin: 20px;
     }
 
@@ -627,6 +629,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
 
     .historia-container h1{
@@ -637,6 +640,7 @@
     .historia-container p{
         line-height: 1.3;
         padding: 10px;
+        font-size: 1rem;
     }
 
     .historia-container img{

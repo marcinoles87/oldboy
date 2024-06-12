@@ -48,7 +48,7 @@ function Wyniki() {
    
 
     { 
-      mecz : 'Garbarnia - Grębałowianka' ,
+      mecz : 'Wieczysta - Grębałowianka' ,
       data : '20.05.2024   godz. 19:30'  ,
       wynik: '2:2' ,
       statystyki : 'strzelcy : Cecuga , Strojek R.  ' ,
@@ -56,7 +56,7 @@ function Wyniki() {
     } , 
 
     { 
-      mecz : 'Grębałowianka- Wieczysta ' ,
+      mecz : 'Grębałowianka- Garbarnia' ,
       data : '20.05.2024   godz. 18:00'  ,
       wynik: '0:5' ,
       statystyki : 'strzelcy :  ' ,
