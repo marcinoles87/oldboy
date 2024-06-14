@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.e0f03b72.css",
-    "main.js": "./static/js/main.eb94537b.js",
+    "main.css": "./static/css/main.8418c898.css",
+    "main.js": "./static/js/main.6d73e5aa.js",
     "static/media/wydarzenia.jpg": "./static/media/wydarzenia.ae9b26ab07114d5ae062.jpg",
     "static/media/hala.jpg": "./static/media/hala.b9fc5790357ae2da7432.jpg",
     "static/media/2022.jpg": "./static/media/2022.e667a0179a79a48c2111.jpg",
@@ -23,11 +23,11 @@
     "static/media/kontakt.jpg": "./static/media/kontakt.ad465c4fbd0a1b9de388.jpg",
     "static/media/wyniki.jpg": "./static/media/wyniki.7b6f33f7a46d5ac288b4.jpg",
     "index.html": "./index.html",
-    "main.e0f03b72.css.map": "./static/css/main.e0f03b72.css.map",
-    "main.eb94537b.js.map": "./static/js/main.eb94537b.js.map"
+    "main.8418c898.css.map": "./static/css/main.8418c898.css.map",
+    "main.6d73e5aa.js.map": "./static/js/main.6d73e5aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0f03b72.css",
-    "static/js/main.eb94537b.js"
+    "static/css/main.8418c898.css",
+    "static/js/main.6d73e5aa.js"
   ]
 }
