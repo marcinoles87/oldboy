@@ -4,6 +4,8 @@ import img1 from './img/dabski1.jpg'
 import img2 from './img/dabski1.jpg'
 import img3 from '/web frontend/projekty React/oldboy/src/img/dabski1.jpg'
 
+import iii3 from '../opis/img/dabski1.jpg'
+
 
 
 function opisDabski() {
@@ -38,7 +40,7 @@ function opisDabski() {
           
           </p>
 
-        <img src={img1} alt='gre-dab'></img>
+        <img src={iii3} alt='gre-dab'></img>
         <img src={img2} alt='gre-dab'></img>
         <img src={img3} alt='gre-dab'></img>
         

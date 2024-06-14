@@ -32,7 +32,8 @@ function Wyniki() {
       mecz : 'Borek - Grębałowianka ' ,
       data : '29.04.2024   godz. 21:00'  ,
       wynik: '1:0' ,
-      statystyki : 'strzelcy :     '
+      statystyki : 'strzelcy :     ' ,
+      opis : <Link to={'/opis/opisBorek'}><p>Opis meczu</p></Link>
     } , 
 
 
@@ -86,9 +87,9 @@ function Wyniki() {
 
   return (
     <div className='wyniki-container'>
-      <h1>Wyniki</h1>
+     
 
-      <h2>Aktualna <a href='https://futmal.pl/league/i-liga-oldbojow-krakow'>tabela</a> </h2>
+      {/* <h2>Aktualna <a href='https://futmal.pl/league/i-liga-oldbojow-krakow'>tabela</a> </h2> */}
         
          {wyniki.map( (item , index) => {
         return(
