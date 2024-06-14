@@ -2,7 +2,9 @@ import React from 'react'
 
 import img1 from './img/dabski1.jpg'
 import img2 from './img/dabski1.jpg'
-import img3 from './img/dabski1.jpg'
+import img3 from '/web frontend/projekty React/oldboy/src/img/dabski1.jpg'
+
+
 
 function opisDabski() {
   return (
