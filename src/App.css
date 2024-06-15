@@ -245,6 +245,20 @@
     color:white;
 }
 
+.herbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herb{
+    width: 70px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+   
+}
+
 .opis-container{
     display: flex;
     flex-direction: column;

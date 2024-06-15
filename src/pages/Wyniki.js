@@ -4,6 +4,16 @@ import '../App.css'
 import opisDabski from './opis/opisDabski'
 import { Link } from 'react-router-dom'
 
+import greLogo from '../img/logo.png'
+import hutLogo from '../img/hutnikLogo2.png'
+import craLogo from '../img/craLogo.png'
+import dabLogo from '../img/dabLogo.png'
+import borLogo from '../img/borekLogo.png'
+import wisLogo from '../img/wislaLogo.png'
+import wieLogo from '../img/wieczLogo.png'
+import garLogo from '../img/garbLogo.png'
+import orzelLogo from '../img/orzelLogo.png'
+
 
 
 
@@ -13,7 +23,8 @@ function Wyniki() {
 
   const wyniki = [
     { 
-      mecz : 'Cracovia - Grębałowianka  ' ,
+      mecz : <img src={craLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
       data : '8.04.2024   godz. 19:00'  ,
       wynik: '5:1' ,
       statystyki : 'strzelcy : Poplatek   ',
@@ -21,7 +32,8 @@ function Wyniki() {
     } ,
     
     { 
-      mecz : 'Grębałowianka - Dąbski' ,
+      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={dabLogo} alt='hut' className='herb'></img> ,
       data : '15.04.2024   godz. 17:30'  ,
       wynik: '5:1' ,
       statystyki : 'strzelcy : Cecuga x 2 , Lampart , Franaszek , Strojek R.,    ' ,
@@ -29,7 +41,8 @@ function Wyniki() {
     } , 
 
     { 
-      mecz : 'Borek - Grębałowianka ' ,
+      mecz : <img src={borLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
       data : '29.04.2024   godz. 21:00'  ,
       wynik: '1:0' ,
       statystyki : 'strzelcy :     ' ,
@@ -38,7 +51,8 @@ function Wyniki() {
 
 
     { 
-      mecz : 'Grębałowianka - Wisła' ,
+      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={wisLogo} alt='hut' className='herb'></img> ,
       data : '29.04.2024   godz. 17:30'  ,
       wynik: '2:2' ,
       statystyki : 'strzelcy : Cecuga , Karaś.D  ' ,
@@ -49,7 +63,8 @@ function Wyniki() {
    
 
     { 
-      mecz : 'Wieczysta - Grębałowianka' ,
+      mecz : <img src={garLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
       data : '20.05.2024   godz. 19:30'  ,
       wynik: '2:2' ,
       statystyki : 'strzelcy : Cecuga , Strojek R.  ' ,
@@ -57,7 +72,8 @@ function Wyniki() {
     } , 
 
     { 
-      mecz : 'Grębałowianka- Garbarnia' ,
+      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={wieLogo} alt='hut' className='herb'></img> ,
       data : '20.05.2024   godz. 18:00'  ,
       wynik: '0:5' ,
       statystyki : 'strzelcy :  ' ,
@@ -65,7 +81,8 @@ function Wyniki() {
     } , 
 
     { 
-      mecz : 'Grębałowianka- Hutnik ' ,
+      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={hutLogo} alt='hut' className='herb'></img> ,
       data : '03.06.2024   godz. 17:30'  ,
       wynik: '0:4' ,
       statystyki : 'strzelcy :  ' ,
@@ -73,7 +90,8 @@ function Wyniki() {
     } , 
 
     { 
-      mecz : 'Grębałowianka- Orzel ' ,
+      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={orzelLogo} alt='hut' className='herb'></img> ,
       data : '11.06.2024   godz. 17:30'  ,
       wynik: '1:0' ,
       statystyki : 'strzelcy : Lampart ' ,
@@ -95,7 +113,10 @@ function Wyniki() {
         return(
           <div className='wynik' key={index}>
             
-            <h2>{item.mecz}</h2>
+            <div className='herbs'>
+              {item.mecz} vs {item.mecz2}
+              </div>
+            
             <p>{item.data}</p>
             <h3>{item.wynik}</h3>
             <h5>{item.statystyki}</h5>
