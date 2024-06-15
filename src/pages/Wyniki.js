@@ -63,7 +63,7 @@ function Wyniki() {
    
 
     { 
-      mecz : <img src={garLogo} alt='gre' className='herb'></img>  ,
+      mecz : <img src={wieLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
       data : '20.05.2024   godz. 19:30'  ,
       wynik: '2:2' ,
@@ -73,7 +73,7 @@ function Wyniki() {
 
     { 
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
-      mecz2 : <img src={wieLogo} alt='hut' className='herb'></img> ,
+      mecz2 : <img src={garLogo} alt='hut' className='herb'></img> ,
       data : '20.05.2024   godz. 18:00'  ,
       wynik: '0:5' ,
       statystyki : 'strzelcy :  ' ,
