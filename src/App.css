@@ -52,7 +52,7 @@
    
     text-align: center;
     height: 100%;
-    background-color: #00000080;
+    background-color: #00000044;
     
 
 }
@@ -378,7 +378,7 @@
         text-align: center;
         width: 100vw;
         height: 30vh;
-        background-color: #00000080;
+        background-color: #00000044;
         
     
     }
@@ -404,7 +404,7 @@
         left: 50%;
         transform: translate(-50%,-50%);
         font-size: 25px;
-        background-color: #8080808a;
+        background-color: #00000054;
     }
 
     .navbar-link:nth-child(2){
