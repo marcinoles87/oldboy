@@ -214,6 +214,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
     
 }
 
@@ -225,7 +226,7 @@
     align-items: center;
     margin: 20px;
     padding: 10px;
-    /* border-bottom: 2px solid blue; */
+   
 }
 
 .wynik a{
