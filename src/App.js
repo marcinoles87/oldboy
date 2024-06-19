@@ -19,6 +19,7 @@ import OpisWieczysta from './pages/opis/opisWieczysta'
 import OpisHutnik from './pages/opis/opisHutnik'
 import OpisOrzel from './pages/opis/opisOrzel'
 import OpisBorek from './pages/opis/opisBorek'
+import OpisOpatkowianka from './pages/opis/opisOpat'
 import OpisCharytatywny from './pages/opis/opisCharytatywny'
 
 import { Route, Router, Routes , Link } from 'react-router-dom';
@@ -56,6 +57,7 @@ function App() {
         <Route path='/opis/opisHutnik' element={<OpisHutnik></OpisHutnik>}></Route>
         <Route path='/opis/opisOrzel' element={<OpisOrzel></OpisOrzel>}></Route> 
         <Route path='/opis/opisBorek' element={<OpisBorek></OpisBorek>}></Route> 
+        <Route path='/opis/opisOpat' element={<OpisOpatkowianka></OpisOpatkowianka>}></Route>
         <Route path='/opis/opisCharytatywny' element={<OpisCharytatywny></OpisCharytatywny>}></Route>
 
       </Routes>

@@ -13,6 +13,7 @@ import wisLogo from '../img/wislaLogo.png'
 import wieLogo from '../img/wieczLogo.png'
 import garLogo from '../img/garbLogo.png'
 import orzelLogo from '../img/orzelLogo.png'
+import opatLogo from '../img/opatkowiankaLogo.png'
 
 
 
@@ -96,6 +97,15 @@ function Wyniki() {
       wynik: '1:0' ,
       statystyki : 'strzelcy : Lampart ' ,
       opis : <Link to={'/opis/opisOrzel'}><p>Opis meczu</p></Link>
+    } , 
+
+    { 
+      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={opatLogo} alt='hut' className='herb'></img> ,
+      data : '11.06.2024   godz. 17:30'  ,
+      wynik: '2:2' ,
+      statystyki : 'strzelcy : Strojek R. , Oleś  ' ,
+      opis : <Link to={'/opis/opisOpat'}><p>Opis meczu</p></Link>
     } , 
 
   
