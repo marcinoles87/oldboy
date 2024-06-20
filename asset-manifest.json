@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/oldboy/static/css/main.8834dae7.css",
-    "main.js": "/oldboy/static/js/main.b691042f.js",
+    "main.js": "/oldboy/static/js/main.768b2200.js",
     "static/media/wydarzenia.jpg": "/oldboy/static/media/wydarzenia.ae9b26ab07114d5ae062.jpg",
     "static/media/hala.jpg": "/oldboy/static/media/hala.b9fc5790357ae2da7432.jpg",
     "static/media/2022.jpg": "/oldboy/static/media/2022.e667a0179a79a48c2111.jpg",
@@ -26,8 +26,10 @@
     "static/media/2013.jpg": "/oldboy/static/media/2013.4dfba8f68d2b2d3fa2fc.jpg",
     "static/media/orzel3.jpg": "/oldboy/static/media/orzel3.8c1b90094f8ee56eaf59.jpg",
     "static/media/wieczLogo.png": "/oldboy/static/media/wieczLogo.f38f016f8f992117a3f1.png",
+    "static/media/opat2.jpg": "/oldboy/static/media/opat2.5717930448d31d38ddc2.jpg",
     "static/media/dabski1.jpg": "/oldboy/static/media/dabski1.b5790a8332f5a9184229.jpg",
     "static/media/charytatywny.jpg": "/oldboy/static/media/charytatywny.c13dc0066f36edda52bf.jpg",
+    "static/media/opat1.jpg": "/oldboy/static/media/opat1.e5b7ffd2e1231fee4f2e.jpg",
     "static/media/hutnikLogo2.png": "/oldboy/static/media/hutnikLogo2.6ee7c68c18a943cc519e.png",
     "static/media/craLogo.png": "/oldboy/static/media/craLogo.623d4c3d6b92915b5ae7.png",
     "static/media/dabLogo.png": "/oldboy/static/media/dabLogo.146cbf6de2df627f694d.png",
@@ -35,13 +37,14 @@
     "static/media/orzelLogo.png": "/oldboy/static/media/orzelLogo.bef8ac25d6119a857e6b.png",
     "static/media/logo.png": "/oldboy/static/media/logo.a2fc1662e5dd4463cd10.png",
     "static/media/kontakt.jpg": "/oldboy/static/media/kontakt.ad465c4fbd0a1b9de388.jpg",
+    "static/media/opatkowiankaLogo.png": "/oldboy/static/media/opatkowiankaLogo.8db765a8af3c57c1fb5b.png",
     "static/media/wyniki.jpg": "/oldboy/static/media/wyniki.7b6f33f7a46d5ac288b4.jpg",
     "index.html": "/oldboy/index.html",
     "main.8834dae7.css.map": "/oldboy/static/css/main.8834dae7.css.map",
-    "main.b691042f.js.map": "/oldboy/static/js/main.b691042f.js.map"
+    "main.768b2200.js.map": "/oldboy/static/js/main.768b2200.js.map"
   },
   "entrypoints": [
     "static/css/main.8834dae7.css",
-    "static/js/main.b691042f.js"
+    "static/js/main.768b2200.js"
   ]
 }
