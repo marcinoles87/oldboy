@@ -11,7 +11,7 @@ function Kadra() {
       <h1>Bramkarze</h1>
        <p>Piotr Kokosza</p>
        <p>Dominik Nowak</p>
-       <p>Marcin Biały</p>
+       <p></p>
       </div>
 
       <div className='kadra-card'>
@@ -25,6 +25,7 @@ function Kadra() {
        <p>Robert Dominik </p>
        <p>Konrad Poplatek</p>
        <p>Grzegorz Rutka</p>
+       <p>Krzysztof Marzec</p>
         </div>
 
       <div className='kadra-card'>
@@ -38,7 +39,7 @@ function Kadra() {
        <p>Marcin Cecuga</p>
        <p>Grzegorz Strojek</p>
        <p>Dominik Karaś</p>
-       <p>Tomasz Madejczyk</p>
+       <p>Marcin Kawula</p>
         </div>
 
         <div className='kadra-card'>
@@ -47,6 +48,7 @@ function Kadra() {
        <p>Andrzej Mucharski</p>
        <p>Piotr Grzywa</p>
        <p>Marcin Stolarski</p>
+       <p>Arkadiusz Gadzina</p>
        <p></p>
         </div>
     
