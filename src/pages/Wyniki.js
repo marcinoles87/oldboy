@@ -64,12 +64,12 @@ function Wyniki() {
    
 
     { 
-      mecz : <img src={wieLogo} alt='gre' className='herb'></img>  ,
+      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
       data : ''  ,
       wynik: '' ,
       statystyki : '  ' ,
-      opis : <Link to={'/opis/opisGarbarnia'}><p>Opis meczu</p></Link>
+      opis : <Link to={'/opis/opisVictoria'}><p>Opis meczu</p></Link>
     } , 
 
     { 
@@ -92,11 +92,11 @@ function Wyniki() {
 
     { 
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
-      mecz2 : <img src={''} alt='hut' className='herb'></img> ,
+      mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
       data : ''  ,
       wynik: '' ,
       statystyki : ' ' ,
-      opis : <Link to={'/opis/opisOrzel'}><p>Opis meczu</p></Link>
+      opis : <Link to={'/opis/opisKrakus'}><p>Opis meczu</p></Link>
     } , 
 
     { 
