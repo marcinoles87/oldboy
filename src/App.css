@@ -214,9 +214,21 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
+    margin-top: 50px;
     justify-content: center;
+    align-items: center;
+    
     
 }
+
+.mecze-container img{
+    width: 50%;
+}
+
+
+    .mecze-container a{
+        color: blue;
+    }
 
 .wyniki-container{
     display: flex;
@@ -527,6 +539,14 @@
         border-bottom: 2px solid #1b1b64;
         width: 100vw;
 
+    }
+
+    .mecze-container a{
+        color: blue;
+    }
+
+    .mecze-container img{
+        width: 80%;
     }
 
 

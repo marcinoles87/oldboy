@@ -15,6 +15,7 @@ import garLogo from '../img/garbLogo.png'
 import orzelLogo from '../img/orzelLogo.png'
 import opatLogo from '../img/opatkowiankaLogo.png'
 import tabela from '../img/tabela.png'
+import krakusLogo from '../img/krakusLogo.png'
 
 
 
@@ -75,11 +76,11 @@ function Wyniki() {
 
     { 
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
-      mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
+      mecz2 : <img src={krakusLogo} alt='hut' className='herb'></img> ,
       data : ''  ,
       wynik: '' ,
       statystyki : '  ' ,
-      opis : <Link to={'/opis/opisVictoria'}><p>Opis meczu</p></Link>
+      opis : <Link to={'/opis/opisKrakus'}><p>Opis meczu</p></Link>
     } , 
 
     { 
@@ -102,11 +103,11 @@ function Wyniki() {
 
     { 
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
-      mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
+      mecz2 : 'Victoria Kraków',
       data : ''  ,
       wynik: '' ,
       statystyki : ' ' ,
-      opis : <Link to={'/opis/opisKrakus'}><p>Opis meczu</p></Link>
+      opis : <Link to={'/opis/opisVictoria'}><p>Opis meczu</p></Link>
     } , 
 
    
@@ -119,10 +120,10 @@ function Wyniki() {
   return (
     <div className='mecze-container'>
 
-            <h2>Aktualna <a href='https://futmal.pl/league/i-liga-oldbojow-krakow'>tabela</a> </h2>
+            <h2>AKTUALNA  <a href='https://futmal.pl/league/i-liga-oldbojow-krakow'> TABELA</a> </h2>
             <img src={tabela} alt='tabela'></img>
 
-      
+            <h2>WYNIKI :</h2>
       <div className='wyniki-container'>
          {wyniki.map( (item , index) => {
         return(
