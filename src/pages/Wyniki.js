@@ -14,6 +14,7 @@ import wieLogo from '../img/wieczLogo.png'
 import garLogo from '../img/garbLogo.png'
 import orzelLogo from '../img/orzelLogo.png'
 import opatLogo from '../img/opatkowiankaLogo.png'
+import tabela from '../img/tabela.png'
 
 
 
@@ -24,8 +25,8 @@ function Wyniki() {
 
   const wyniki = [
     { 
-      mecz : <img src={craLogo} alt='gre' className='herb'></img>  ,
-      mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
+      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={craLogo} alt='hut' className='herb'></img> ,
       data : '14.04.2025   godz. 18:00'  ,
       wynik: '5:4' ,
       statystyki : 'strzelcy :    ',
@@ -36,7 +37,7 @@ function Wyniki() {
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={dabLogo} alt='hut' className='herb'></img> ,
       data : '' ,
-      wynik: '' ,
+      wynik: '3:0 walkower' ,
       statystyki : '   ' ,
       opis : <Link to={'/opis/opisDabski'}><p>Opis meczu</p></Link>
     } , 
@@ -45,7 +46,7 @@ function Wyniki() {
       mecz : <img src={borLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
       data : ''  ,
-      wynik: '' ,
+      wynik: '2:1' ,
       statystyki : 'strzelcy :     ' ,
       opis : <Link to={'/opis/opisBorek'}><p>Opis meczu</p></Link>
     } , 
@@ -55,10 +56,19 @@ function Wyniki() {
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={wisLogo} alt='hut' className='herb'></img> ,
       data : ''  ,
-      wynik: '' ,
+      wynik: '2:1' ,
       statystyki : '  ' ,
       opis : <Link to={'/opis/opisWisla'}><p>Opis meczu</p></Link>
       
+    } , 
+
+     { 
+      mecz : <img src={opatLogo} alt='gre' className='herb'></img>  ,
+      mecz2 : <img src={greLogo} alt='hut' className='herb'></img> ,
+      data : ''  ,
+      wynik: '0:0' ,
+      statystyki : '  ' ,
+      opis : <Link to={'/opis/opisOpat'}><p>Opis meczu</p></Link>
     } , 
 
    
@@ -99,14 +109,7 @@ function Wyniki() {
       opis : <Link to={'/opis/opisKrakus'}><p>Opis meczu</p></Link>
     } , 
 
-    { 
-      mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
-      mecz2 : <img src={opatLogo} alt='hut' className='herb'></img> ,
-      data : ''  ,
-      wynik: '' ,
-      statystyki : '  ' ,
-      opis : <Link to={'/opis/opisOpat'}><p>Opis meczu</p></Link>
-    } , 
+   
 
   
 
@@ -114,11 +117,13 @@ function Wyniki() {
 ]
 
   return (
-    <div className='wyniki-container'>
-     
+    <div className='mecze-container'>
 
-      <h2>Aktualna <a href='https://futmal.pl/league/i-liga-oldbojow-krakow'>tabela</a> </h2>
-        
+            <h2>Aktualna <a href='https://futmal.pl/league/i-liga-oldbojow-krakow'>tabela</a> </h2>
+            <img src={tabela} alt='tabela'></img>
+
+      
+      <div className='wyniki-container'>
          {wyniki.map( (item , index) => {
         return(
           <div className='wynik' key={index}>
@@ -127,13 +132,17 @@ function Wyniki() {
               {item.mecz} vs {item.mecz2}
               </div>
             
-            <p>{item.data}</p>
+            {/* <p>{item.data}</p> */}
             <h3>{item.wynik}</h3>
-            <h5>{item.statystyki}</h5>
-            {item.opis}
+            {/* <h5>{item.statystyki}</h5> */}
+            {/* {item.opis} */}
             </div>
         )
       })} 
+
+      </div>
+
+
         
       
 
