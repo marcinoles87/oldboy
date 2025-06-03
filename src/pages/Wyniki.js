@@ -87,8 +87,8 @@ function Wyniki() {
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={garLogo} alt='hut' className='herb'></img> ,
       data : ''  ,
-      wynik: '' ,
-      statystyki : 'strzelcy :  ' ,
+      wynik: '2:1' ,
+      statystyki : 'strzelcy : Cecuga , Strojek  ' ,
       opis : <Link to={'/opis/opisWieczysta'}><p>Opis meczu</p></Link>
     } , 
 
