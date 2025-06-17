@@ -16,6 +16,7 @@ import orzelLogo from '../img/orzelLogo.png'
 import opatLogo from '../img/opatkowiankaLogo.png'
 import tabela from '../img/tabela.png'
 import krakusLogo from '../img/krakusLogo.png'
+import victorialogo from '../img/victoria.png'
 
 
 
@@ -78,7 +79,7 @@ function Wyniki() {
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={krakusLogo} alt='hut' className='herb'></img> ,
       data : ''  ,
-      wynik: '' ,
+      wynik: '1:1' ,
       statystyki : '  ' ,
       opis : <Link to={'/opis/opisKrakus'}><p>Opis meczu</p></Link>
     } , 
@@ -96,16 +97,16 @@ function Wyniki() {
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={hutLogo} alt='hut' className='herb'></img> ,
       data : ''  ,
-      wynik: '' ,
+      wynik: '0:0' ,
       statystyki : 'strzelcy :  ' ,
       opis : <Link to={'/opis/opisHutnik'}><p>Opis meczu</p></Link>
     } , 
 
     { 
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
-      mecz2 : 'Victoria Kraków',
+      mecz2 : <img src={victorialogo} alt='gre' className='herb'></img>,
       data : ''  ,
-      wynik: '' ,
+      wynik: '4:0' ,
       statystyki : ' ' ,
       opis : <Link to={'/opis/opisVictoria'}><p>Opis meczu</p></Link>
     } , 
