@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/oldboy/static/css/main.16f94d3a.css",
-    "main.js": "/oldboy/static/js/main.1ce48071.js",
+    "main.js": "/oldboy/static/js/main.2d48877a.js",
     "static/media/wydarzenia.jpg": "/oldboy/static/media/wydarzenia.ae9b26ab07114d5ae062.jpg",
     "static/media/hala.jpg": "/oldboy/static/media/hala.b9fc5790357ae2da7432.jpg",
     "static/media/2022.jpg": "/oldboy/static/media/2022.e667a0179a79a48c2111.jpg",
@@ -34,7 +34,8 @@
     "static/media/hutnikLogo2.png": "/oldboy/static/media/hutnikLogo2.6ee7c68c18a943cc519e.png",
     "static/media/craLogo.png": "/oldboy/static/media/craLogo.623d4c3d6b92915b5ae7.png",
     "static/media/dabLogo.png": "/oldboy/static/media/dabLogo.146cbf6de2df627f694d.png",
-    "static/media/tabela.png": "/oldboy/static/media/tabela.59aeb4bb2eb65177b800.png",
+    "static/media/tabela.png": "/oldboy/static/media/tabela.b18903fe7411dfd8b36f.png",
+    "static/media/victoria.png": "/oldboy/static/media/victoria.151e8e1495b01abc2ff9.png",
     "static/media/pilka.webp": "/oldboy/static/media/pilka.82413e57e9473630c868.webp",
     "static/media/krakusLogo.png": "/oldboy/static/media/krakusLogo.9a29617964762d401a03.png",
     "static/media/orzelLogo.png": "/oldboy/static/media/orzelLogo.bef8ac25d6119a857e6b.png",
@@ -44,10 +45,10 @@
     "static/media/wyniki.jpg": "/oldboy/static/media/wyniki.7b6f33f7a46d5ac288b4.jpg",
     "index.html": "/oldboy/index.html",
     "main.16f94d3a.css.map": "/oldboy/static/css/main.16f94d3a.css.map",
-    "main.1ce48071.js.map": "/oldboy/static/js/main.1ce48071.js.map"
+    "main.2d48877a.js.map": "/oldboy/static/js/main.2d48877a.js.map"
   },
   "entrypoints": [
     "static/css/main.16f94d3a.css",
-    "static/js/main.1ce48071.js"
+    "static/js/main.2d48877a.js"
   ]
 }
