@@ -16,23 +16,20 @@ function Kadra() {
 
       <div className='kadra-card'>
          <h1>Obrońcy</h1>
-       <p>Artur Talaga</p>
        <p>Łukasz Korcala</p>
-       <p>Wojtek Sendor</p>
        <p>Paweł Ochlust</p>
        <p>Piotr Jańczyk</p>
        <p>Marcin Wierzbiński</p>
-       <p>Robert Dominik </p>
        <p>Konrad Poplatek</p>
        <p>Grzegorz Rutka</p>
        <p>Krzysztof Marzec</p>
+       <p>Maciej Wejner</p>
+       <p>Rafał Gruchała</p>
         </div>
 
       <div className='kadra-card'>
             <h1>Pomocnicy</h1>
-      <p>Mariusz Wójcik</p>
        <p>Marcin Oleś</p>
-       <p>Piotr Krawczyk</p>
        <p>Sebastian Towarek</p>
        <p>Lukasz Lampart</p>
        <p>Piotr Franaszek</p>
@@ -62,6 +59,11 @@ function Kadra() {
         <p>Piotr Kokosza</p>
         <h1>Kierownik drużyny</h1>
        <p>Grzegorz Strojek / Robert Strojek</p>
+       <h1>Grill Meni</h1>
+       <p>Piotr Kokosza</p>
+       <p>Marcin Stolarski</p>
+       <p>Paweł Ochlust</p>
+       <p>Grzegorz Strojek</p>
        <h1>Social Media</h1>
        <p>Piotr Grzywa / Marcin Oleś</p>
       </div>
