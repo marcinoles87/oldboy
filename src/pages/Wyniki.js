@@ -30,7 +30,7 @@ function Wyniki() {
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={craLogo} alt='hut' className='herb'></img> ,
       data : '14.04.2025   godz. 18:00'  ,
-      wynik: '5:4' ,
+      wynik: 'Runda I 5:4 , Runda II 3:4' ,
       statystyki : 'strzelcy :    ',
       opis : <Link to={'/opis/opisCra'}><p>Opis meczu</p></Link>
     } ,
@@ -39,7 +39,7 @@ function Wyniki() {
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={dabLogo} alt='hut' className='herb'></img> ,
       data : '' ,
-      wynik: 'runda I 3:0 walkower ,runda II 6:0' ,
+      wynik: 'Runda I 3:0 walkower , Runda II 6:0' ,
       statystyki : '   ' ,
       opis : <Link to={'/opis/opisDabski'}><p>Opis meczu</p></Link>
     } , 
