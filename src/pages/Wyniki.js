@@ -39,7 +39,7 @@ function Wyniki() {
       mecz : <img src={greLogo} alt='gre' className='herb'></img>  ,
       mecz2 : <img src={dabLogo} alt='hut' className='herb'></img> ,
       data : '' ,
-      wynik: 'Runda I 3:0 walkower , Runda II 6:0' ,
+      wynik: 'Runda I 3:0 , Runda II 6:0' ,
       statystyki : '   ' ,
       opis : <Link to={'/opis/opisDabski'}><p>Opis meczu</p></Link>
     } , 
